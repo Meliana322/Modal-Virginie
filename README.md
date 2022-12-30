@@ -2,12 +2,12 @@
 
 ## Install
 
-Install using `npm i modal-virginie`
+Install using `npm i modal-react-virginie`
 
 ## Usage
 
 In a React app, use the Modal components:
-`import { Modal } from 'modal-virginie'`
+`import { Modal } from 'modal-react-virginie'`
 
 
 ## Modal props
@@ -25,7 +25,7 @@ In a React app, use the Modal components:
 
 ```js
 import React, { useState } from "react";
-import { Modal } from "modal-virginie";
+import { Modal } from "modal-react-virginie";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
